@@ -110,7 +110,7 @@ function App() {
 
         <div className="mt-3 h-1.5 w-2/3 bg-black mx-auto rounded"></div>
 
-      <div className='md:h-full'  ref={contactRef}>
+      <div className='w-full flex justify-center'  ref={contactRef}>
         <Contact />
       </div>
 
@@ -121,7 +121,7 @@ function App() {
                       <a href="https://www.facebook.com/momtazd?mibextid=wwXIfr&mibextid=wwXIfr" className="bg-black text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-gray-800">
                         <FontAwesomeIcon icon={faFacebookF } size="lg" />
                       </a>
-                      <a href="#" className="bg-black text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-gray-800">
+                      <a href="https://www.linkedin.com/in/asst-prof-dr-momtaz-dib-ph-d-422b5240/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="bg-black text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-gray-800">
                         <FontAwesomeIcon icon={faLinkedin} size="lg" />
                       </a>
                       <a href="#" className="bg-black text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-gray-800">
