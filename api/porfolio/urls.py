@@ -17,5 +17,6 @@ router.register(r'contact', views.ContactSubmissionViewSet)
 # Additionally, we include login URLs for the browsable API.
 urlpatterns = [
     path('', include(router.urls)),
+    path('contact-submit/', views.contact_submit, name='contact_submit'),
     
 ]

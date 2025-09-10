@@ -1,1 +1,7 @@
-/* Purged CRA defaults to allow Tailwind-driven design */
+.img-fit {
+  width: 150px;   /* or any fixed size */
+  height: 150px;  /* or any fixed size */
+  border-radius: 50%; /* circle */
+  border: 4px solid white;
+  object-fit: cover;  /* fits perfectly inside */
+}

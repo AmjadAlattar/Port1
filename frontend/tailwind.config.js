@@ -13,7 +13,7 @@ module.exports = {
         "contact-image": "url('/assets/contact.jpg')",
       },
       colors: {
-        designColor: "#110a25ff", // primary blue
+        designColor: "#100f44ff", // primary blue
         textColor: "#6b7280", // gray-500
         primaryBlue: "#2563eb",
         primaryBlueDark: "#1d4ed8",
